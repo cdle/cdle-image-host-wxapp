@@ -1,0 +1,6 @@
+<view style="display:flex;flex-direction:row;flex-wrap:wrap;">
+	<view style="width:145rpx;height:145rpx;margin:0 0 5rpx 5rpx;" wx:for="{{content}}" hidden="{{item.hidden}}">
+		<image bindtap="clickImage" style="width:100%;height:100%;" lazy-load='true' mode='aspectFill' data-id="{{item.id}}" src="{{address}}/c/{{item.name}}"></image>
+	</view>
+</view>
+<mp-actionSheet bindactiontap="clickSheetButton" show="{{showActionsheet[0]}}" actions="{{groups}}"></mp-actionSheet>

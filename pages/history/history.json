@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "历史图片",
+  "usingComponents": {
+    "mp-actionSheet": "weui-miniprogram/actionsheet/actionsheet"
+  },
+  "enablePullDownRefresh": true
+}

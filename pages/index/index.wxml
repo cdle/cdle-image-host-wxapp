@@ -1,0 +1,6 @@
+<view style="width:100%;height:100vh;">
+	<view bindtap="historyUpload" style="text-align:center;color:#457fca;padding:150rpx;"><text>历史图片</text></view>
+	<view>
+		<button style="background:#457fca;border-radius: 30px;" type="primary" bindtap="uploadImages">点击上传</button>
+	</view>
+</view>
